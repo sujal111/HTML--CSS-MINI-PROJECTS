@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+}
+
+.main_div {
+    width: 100%;
+    height: 100vh;
+    background-image: image('images/sujal.png');
+    background-size: 100% 100%
+}
+
+.center_div {
+    width: 280px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: -1px 15px 30px -10px black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to-right, #67624c, #767c6e);
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.img_div {
+    width: 450px;
+    height: 330px;
+    margin-top: -40px;
+    margin-left: -50px;
+}
+
+.about_div {
+    padding: 30px 15px;
+}
+
+.about_div h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: bold;
+    color: aqua;
+}
+
+.about_div h1 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ec9b3b;
+}
+
+.about_div p {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #a5b1c2;
+}
+
+.lower_div {
+    widows: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ec9b3b;
+}
