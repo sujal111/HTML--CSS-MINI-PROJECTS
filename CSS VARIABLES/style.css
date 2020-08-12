@@ -1,0 +1,20 @@
+:root {
+    --clr: white;
+    --bg-colr: #42a5f5;
+}
+
+div {
+    background: var(--bg-colr);
+}
+
+h1 {
+    color: var(--clr);
+}
+
+h1 {
+    color: var(--clr);
+}
+
+h1 {
+    color: var(--clr);
+}
